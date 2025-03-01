@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="author" content="">
+<title>Zhenzhong Kuang</title>
+<link rel="icon" type="image/x-icon" href="../../images/logo_head.png" />
+<!-- Bootstrap Core CSS -->
+<link href="../../css/bootstrap.min.css" rel="stylesheet">
+<!-- Custom Fonts -->
+<link href="../../font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<!-- Custom CSS -->
+<link rel="stylesheet" href="../../css/patros.css" >
+</head>
+
+<!-- Navigation -->
+<nav class="navbar navbar-inverse navbar-fixed-top">
+	<div class="container">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="../../index.html"><img src="../../images/logo.png" height="50" alt="company logo" /></a>
+		</div>
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			<ul class="nav navbar-nav navbar-right custom-menu">
+				<li><a href="#"><i class="fa fa-user"></i> <b> 匡振中 Zhenzhong Kuang </b> </a></li>
+                <li><a href="index.html"> About </a></li>
+				<li class="active"><a href="publications.html">Publications</a></li>
+				<li><a href="../../index.html" target="_blank"><i class="fa fa-home"></i> Camalab</a></li>
+			</ul>
+		</div>
+	</div>
+</nav>
+
+
+<!-- Page Content -->
+<section id="about">
+    <div class="container blog">
+    <div class="row">
+
+        <!-- Blog Column -->
+        <div class="col-md-8">
+        <!-- First Blog Post -->
+        <div class="row blogu">
+        <div class="col-sm-12 col-md-12">
+
+            <h2> Joural Papers </h2><hr>
+			<p>
+                Fan, J., Zhao T., <b><u>Kuang, Z.</u></b>, Zheng, Y., Zhang J., Yu J. & Peng, J. HD-MTL: Hierarchical Deep Multi-Task Learning for Large-Scale Visual Recognition [J]. IEEE Transactions on Image Processing, 2017.<br><br> 
+
+                Yu, J., Zhang, B., <b><u>Kuang, Z.</u></b>, Lin, D., & Fan, J. iPrivacy: image privacy protection by identifying sensitive objects via deep multi-task learning [J]. IEEE Transactions on Information Forensics and Security, 2017.<br><br> 
+
+                <b><u>Kuang, Z.</u></b>, Li, Z., Liu, Y., & Zou, C. Shape similarity assessment based on partial feature aggregation and ranking lists[J]. Pattern Recognition Letters, 2016.<br><br> 
+
+                Li, Z., <b><u>Kuang, Z.</u></b>, Liu, Y., & Wang, J. Multiscale shape context and re-ranking for deformable shape retrieval[J]. Computers & Graphics, 2016.<br><br> 
+
+                <b><u>Kuang, Z.</u></b>, Li, Z., Jiang, X., Liu, Y., & Li, H. Retrieval of non-rigid 3D shapes from multiple aspects [J]. Computer-Aided Design, 2015.<br><br> 
+
+                <b><u>Kuang, Z.</u></b>, Li, Z., Lv, Q., Weiwei, T., & Liu, Y. Modal function transformation for isometric 3D shape representation [J]. Computers & Graphics, 2015.<br><br> 
+
+                <b><u>Kuang, Z.</u></b>, Li, Z., Jiang, X., & Liu, Y. Exploration in improving retrieval quality and robustness for deformable non-rigid 3D shapes [J]. Multimedia Tools and Applications, 2014. 
+
+			</p>
+
+            <h2> Conference Papers </h2><hr>
+            <p>
+
+                <b><u>Kuang, Z.</u></b>, Li, Z., Zhao, T., & Fan, J. Deep multi-task learning for large-scale image classification [C]. International Conference on Multimedia Big Data (BigMM), 2017.<br><br> 
+
+                <b><u>Kuang, Z.</u></b>, Li, Z., Lin, D., & Fan, J. Automatic Privacy Prediction to Accelerate Social Image Sharing[C]. International Conference on Multimedia Big Data (BigMM), 2017.<br><br> 
+
+                <b><u>Kuang, Z.</u></b>, Li, Z., & Fan, J. Discovering the latent similarities of the KNN graph by metric transformation [C]. ACM International Conference on Multimedia Retrieval (ICMR), 2015.<br><br> 
+
+                <b><u>Kuang, Z.</u></b>, Li, Z., Jiang, X., & Liu, Y. Graph contexts for retrieving deformable non-rigid 3D shapes [C]. International Conference on Pattern Recognition (ICPR), 2014.
+
+
+            </p>
+
+        </div>
+        </div>
+    	</div>
+
+
+    <!-- Blog Sidebar Column -->
+        <aside class="col-md-4">
+            <!-- Recent Publications -->
+            <div class="blog-sidebar">
+                <h4 class="sidebar-title"><i class="fa fa-tags"></i> Key Words</h4>
+                <hr>
+                <ul class="sidebar-list">
+                	<li><a href="#">Image Retrieval</a></li>
+                    <li><a href="#">Deep learning</a></li>
+                    <li><a href="#">Convolutional Neural Networks</a></li>
+                    <li><a href="#">Learning to rank</a></li>
+                    <li><a href="#">Multi-task learning</a></li>
+                </ul>
+            </div>
+		</aside>
+
+	</div>
+	</div>
+</section>
+
+
+<footer id="footer">
+     <div class="footer">
+         <div class="container">
+             <div class="col-sm-5 left text-left">
+                 <p>
+                 <i class="fa fa-1x fa-map-marker"></i> 实验室地址：<br>
+                 浙江省杭州市经济技术开发区2号大街1158号，邮编310018<br>
+                 杭州电子科技大学下沙高教园校区 一教北楼512/514室<br><br>
+                 <i class="fa fa-1x fa-home"></i> 实验室网址：<br>
+                 <a href="http://camalab.hdu.edu.cn">http://camalab.hdu.edu.cn</a><br>
+
+                 </p>
+             </div>
+             <div class="col-sm-4 middle text-left">
+                 <p>
+                 <i class="fa fa-1x fa-user"></i> 负责人：<br>
+                 俞俊（教授）：yujun@hdu.edu.cn <br><br>
+                 <i class="fa fa-1x fa-university"></i> 友情链接：<br>
+                 <a href="http://www.hdu.edu.cn/index.php" target="_blank"> Hangzhou Dianzi University </a><br>
+                 <a href="http://computer.hdu.edu.cn/" target="_blank"> School of Coputer Science and Technology </a></td>
+                 </p>
+             </div>
+             <div class="col-sm-3 left right text-center">
+                 <p>
+                 <img src="../../images/camalab_wechat.jpg" width="120px" height="120px" /> </a> <br>
+                 <i class="fa fa-1x fa-weixin"></i>  微信公众号
+                 </p>
+             </div>
+             <div class="clearfix"></div>
+         </div>
+     </div>
+
+    <div class="container">
+        <div class="row myfooter">
+            <div class="text-center">
+                Copyright &copy; 2016. All rights reserved. Designed by <a target="_blank" href="http://camalab.hdu.edu.cn">CAMALAB</a>.
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- jQuery -->
+<script src="../../js/jquery.js"></script>
+<!-- Bootstrap Core JavaScript -->
+<script src="../../js/bootstrap.min.js"></script>
+
+<!-- Portfolio -->
+<script src="../../js/jquery.quicksand.js"></script>
+
+
+        <!--Jquery Smooth Scrolling-->
+        <script>
+            $(document).ready(function(){
+                $('.custom-menu a[href^="#"], .intro-scroller .inner-link').on('click',function (e) {
+                    e.preventDefault();
+
+                    var target = this.hash;
+                    var $target = $(target);
+
+                    $('html, body').stop().animate({
+                        'scrollTop': $target.offset().top
+                    }, 900, 'swing', function () {
+                        window.location.hash = target;
+                    });
+                });
+
+                $('a.page-scroll').bind('click', function(event) {
+                    var $anchor = $(this);
+                    $('html, body').stop().animate({
+                        scrollTop: $($anchor.attr('href')).offset().top
+                    }, 1500, 'easeInOutExpo');
+                    event.preventDefault();
+                });
+
+               $(".nav a").on("click", function(){
+                     $(".nav").find(".active").removeClass("active");
+                    $(this).parent().addClass("active");
+            	});
+
+                $('body').append('<div id="toTop" class="btn btn-primary color1"><span class="glyphicon glyphicon-chevron-up"></span></div>');
+                    $(window).scroll(function () {
+                        if ($(this).scrollTop() != 0) {
+                            $('#toTop').fadeIn();
+                        } else {
+                            $('#toTop').fadeOut();
+                        }
+                    });
+                $('#toTop').click(function(){
+                    $("html, body").animate({ scrollTop: 0 }, 700);
+                    return false;
+                });
+
+            });
+        </script>
+
+    </body>
+</html>

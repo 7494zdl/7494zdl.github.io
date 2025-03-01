@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="author" content="">
+<title>Jun Yu</title>
+<link rel="icon" type="image/x-icon" href="../../images/logo_head.png" />
+<!-- Bootstrap Core CSS -->
+<link href="../../css/bootstrap.min.css" rel="stylesheet">
+<!-- Custom Fonts -->
+<link href="../../font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<!-- Custom CSS -->
+<link rel="stylesheet" href="../../css/patros.css" >
+</head>
+
+<!-- Navigation -->
+<nav class="navbar navbar-inverse navbar-fixed-top">
+	<div class="container">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="../../index.html"><img src="../../images/logo.png" height="50" alt="company logo" /></a>
+		</div>
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			<ul class="nav navbar-nav navbar-right custom-menu">
+				<li><a href="#"><i class="fa fa-user"></i> <b> 俞 俊 Jun Yu </b> </a></li>
+                <li><a href="index.html"> About </a></li>
+				<li class="active"><a href="publications.html">Publications</a></li>
+				<li><a href="../../index.html" target="_blank"><i class="fa fa-home"></i> Camalab</a></li>
+			</ul>
+		</div>
+	</div>
+</nav>
+
+
+<!-- Page Content -->
+<section id="about">
+    <div class="container blog">
+    <div class="row">
+
+        <!-- Blog Column -->
+        <div class="col-md-8">
+        <!-- First Blog Post -->
+        <div class="row blogu">
+        <div class="col-sm-12 col-md-12">
+
+            <h2>Selected Publications</h2><hr>
+			<p>
+
+				Guo Y, Tao D, Yu J, et al. Deep Neural Networks with Relativity Learning for facial expression recognition[C]// IEEE International Conference on Multimedia & Expo Workshops. IEEE, 2016:1-6. <br><br>
+
+				Yu J, Yang X, Fei G, et al. Deep Multimodal Distance Metric Learning Using Click Constraints for Image Ranking[J]. IEEE Transactions on Cybernetics, 2016, PP(99):1-11.<br><br>
+
+				Hong C, Yu J, Wan J, et al. Multimodal Deep Autoencoder for Human Pose Recovery[J]. IEEE Transactions on Image Processing A Publication of the IEEE Signal Processing Society, 2015, 24(12):5659. <br><br>
+
+				Hong C, Yu J, Tao D, et al. Image-Based Three-Dimensional Human Pose Recovery by Multiview Locality-Sensitive Sparse Retrieval[J]. IEEE Transactions on Industrial Electronics, 2015, 62(6):3742-3751. <br><br>
+
+				Zeng K, Yu J, Wang R, et al. Coupled Deep Autoencoder for Single Image Super-Resolution[J]. IEEE Transactions on Cybernetics, 2017, 47(1):27. <br><br>
+
+				Qiao M, Liu L, Yu J, et al. Diversified dictionaries for multi-instance learning[J]. Pattern Recognition, 2016. <br><br>
+
+
+				Yu J, Tao D, Wang M, et al. Learning to rank using user clicks and visual features for image retrieval.[J]. IEEE Transactions on Cybernetics, 2015, 45(4):767-779. <br><br>
+
+				Jun Yu, Dacheng Tao, Yong Rui, Meng Wang, Learning to Rank using User Clicks and Visual Features for Image Retrieval, IEEE Transactions on Cybernetics, 45(4): 767-779, 2015. <br><br>
+
+				Jun Yu, Yong Rui and Dacheng Tao, Click Prediction for Web Image Reranking using Multimodal Sparse Coding, IEEE Transactions on Image Processing,23(5): 2019-2032, 2014. <br><br>
+
+				Jun Yu, Dacheng Tao, Meng Wang, Adaptive Hypergraph Learning and Its Application in Image Classification, IEEE Transactions on Image Processing, 21(7): 3262-3272, 2012. <br><br>
+				
+				Jun Yu, Dongquan Liu, Dacheng Tao, Hock-Soon Seah, Complex Object Correspondence Construction in 2D Animation, IEEE Transactions on Image Processing, 2011, 20(11): 3257-3269. <br><br>
+				
+				Jun Yu, Dacheng Tao, Dongquan Liu, Hock Soon Seah, On Combining Multiview Features for Cartoon Character Retrieval and Clip Synthesis, IEEE Transactions on Systems, Man, and Cybernetics, Part B, 2012, 42(5): 1413-1427. <br><br>
+			</p>
+
+        </div>
+        </div>
+    	</div>
+
+
+    <!-- Blog Sidebar Column -->
+        <aside class="col-md-4">
+            <!-- Recent Publications -->
+            <div class="blog-sidebar">
+                <h4 class="sidebar-title"><i class="fa fa-tags"></i> Key Words</h4>
+                <hr>
+                <ul class="sidebar-list">
+                	<li><a href="#">Image Retrieval</a></li>
+                    <li><a href="#">Deep learning</a></li>
+                    <li><a href="#">Convolutional Neural Networks</a></li>
+                    <li><a href="#">Learning to rank</a></li>
+                    <li><a href="#">Multi-task learning</a></li>
+                </ul>
+            </div>
+		</aside>
+
+	</div>
+	</div>
+</section>
+
+
+<footer id="footer">
+     <div class="footer">
+         <div class="container">
+             <div class="col-sm-5 left text-left">
+                 <p>
+                 <i class="fa fa-1x fa-map-marker"></i> 实验室地址：<br>
+                 浙江省杭州市经济技术开发区2号大街1158号，邮编310018<br>
+                 杭州电子科技大学下沙高教园校区 一教北楼512/514室<br><br>
+                 <i class="fa fa-1x fa-home"></i> 实验室网址：<br>
+                 <a href="http://camalab.hdu.edu.cn">http://camalab.hdu.edu.cn</a><br>
+
+                 </p>
+             </div>
+             <div class="col-sm-4 middle text-left">
+                 <p>
+                 <i class="fa fa-1x fa-user"></i> 负责人：<br>
+                 俞俊（教授）：yujun@hdu.edu.cn <br><br>
+                 <i class="fa fa-1x fa-university"></i> 友情链接：<br>
+                 <a href="http://www.hdu.edu.cn/index.php" target="_blank"> Hangzhou Dianzi University </a><br>
+                 <a href="http://computer.hdu.edu.cn/" target="_blank"> School of Computer Science and Technology </a></td>
+                 </p>
+             </div>
+             <div class="col-sm-3 left right text-center">
+                 <p>
+                 <img src="../../images/camalab_wechat.jpg" width="120px" height="120px" /> </a> <br>
+                 <i class="fa fa-1x fa-weixin"></i>  微信公众号
+                 </p>
+             </div>
+             <div class="clearfix"></div>
+         </div>
+     </div>
+
+    <div class="container">
+        <div class="row myfooter">
+            <div class="text-center">
+                Copyright &copy; 2016. All rights reserved. Designed by <a target="_blank" href="http://camalab.hdu.edu.cn">CAMALAB</a>.
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- jQuery -->
+<script src="../../js/jquery.js"></script>
+<!-- Bootstrap Core JavaScript -->
+<script src="../../js/bootstrap.min.js"></script>
+
+<!-- Portfolio -->
+<script src="../../js/jquery.quicksand.js"></script>
+
+
+        <!--Jquery Smooth Scrolling-->
+        <script>
+            $(document).ready(function(){
+                $('.custom-menu a[href^="#"], .intro-scroller .inner-link').on('click',function (e) {
+                    e.preventDefault();
+
+                    var target = this.hash;
+                    var $target = $(target);
+
+                    $('html, body').stop().animate({
+                        'scrollTop': $target.offset().top
+                    }, 900, 'swing', function () {
+                        window.location.hash = target;
+                    });
+                });
+
+                $('a.page-scroll').bind('click', function(event) {
+                    var $anchor = $(this);
+                    $('html, body').stop().animate({
+                        scrollTop: $($anchor.attr('href')).offset().top
+                    }, 1500, 'easeInOutExpo');
+                    event.preventDefault();
+                });
+
+               $(".nav a").on("click", function(){
+                     $(".nav").find(".active").removeClass("active");
+                    $(this).parent().addClass("active");
+            	});
+
+                $('body').append('<div id="toTop" class="btn btn-primary color1"><span class="glyphicon glyphicon-chevron-up"></span></div>');
+                    $(window).scroll(function () {
+                        if ($(this).scrollTop() != 0) {
+                            $('#toTop').fadeIn();
+                        } else {
+                            $('#toTop').fadeOut();
+                        }
+                    });
+                $('#toTop').click(function(){
+                    $("html, body").animate({ scrollTop: 0 }, 700);
+                    return false;
+                });
+
+            });
+        </script>
+
+    </body>
+</html>
