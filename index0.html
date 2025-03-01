@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>CAMALAB</title>
+    <link rel="icon" type="image/x-icon" href="images/logo_head.png" />
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Custom Fonts -->
+    <link
+      href="font-awesome/css/font-awesome.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/patros.css" />
+  </head>
+
+  <body data-spy="scroll">
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button
+            type="button"
+            class="navbar-toggle"
+            data-toggle="collapse"
+            data-target="#bs-example-navbar-collapse-1"
+          >
+            <span class="sr-only"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html"
+            ><img src="images/logo.png" class="logo-img" alt="company logo"
+          /></a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right custom-menu">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="people.html">People</a></li>
+            <li><a href="research.html">Research</a></li>
+            <li><a href="teaching.html">Teaching</a></li>
+            <li><a href="sources.html">Sources</a></li>
+            <li><a href="joinus.html">Join Us</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Header Carousel
+-->
+    <header id="home" class="carousel slide">
+      <ul class="cb-slideshow">
+        <li>
+          <span>Image 07</span>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="text-center">
+                  <h3>
+                    祝贺本团队在 VQA Challenge 2017 竞赛中取得全球第三名的佳绩！
+                  </h3>
+                </div>
+              </div>
+            </div>
+            <h4></h4>
+          </div>
+        </li>
+
+        <li>
+          <span>Image 01</span>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="text-center"><h3>深度学习</h3></div>
+              </div>
+            </div>
+            <h4>
+              研究深度学习方法及其在计算机视觉领域的应用，涉及生成对抗网络、卷积神经网络、残差网络等模型。
+            </h4>
+          </div>
+        </li>
+        <li>
+          <span>image 02</span>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="text-center"><h3>图像检索与分类</h3></div>
+              </div>
+            </div>
+            <h4>
+              针对“意图鸿沟”问题，结合图像深度视觉特征与用户点击特征，实现图像大数据的细粒度分类与精确检索。
+            </h4>
+          </div>
+        </li>
+        <li>
+          <span>image 03</span>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="text-center"><h3>身份认证</h3></div>
+              </div>
+            </div>
+            <h4>
+              涉及人脸图像中的检测、分割、识别、姿态估计、生物学质量评价；视频中的目标跟踪、人体姿态估计等。
+            </h4>
+          </div>
+        </li>
+        <li>
+          <span>image 04</span>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="text-center"><h3>跨媒体表达</h3></div>
+              </div>
+            </div>
+            <h4>
+              多模态媒体数据（文本、图像等）之间的一致性表达，涉及哈希编码(Hashing)、图像摘要和视觉问答等。
+            </h4>
+          </div>
+        </li>
+        <li>
+          <span>Image 06</span>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="text-center"><h3>视觉质量评价</h3></div>
+              </div>
+            </div>
+            <h4>
+              基于人类视觉特性，设计数学模型使计算机能够自动评价图像的保真度、美观度等，并研究其在移动终端方面的应用。
+            </h4>
+          </div>
+        </li>
+      </ul>
+
+      <div class="intro-scroller">
+        <a class="inner-link" href="#about">
+          <div class="mouse-icon" style="opacity: 1">
+            <div class="wheel"></div>
+          </div>
+        </a>
+      </div>
+    </header>
+
+    <!-- Page Content -->
+
+    <section id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-offset-1 col-md-10">
+            <div class="text-center">
+              <h2>关于CAMALAB</h2>
+              <div class="row">
+                <div class="text-left col-md-12">
+                  <p>
+                    CAMALAB全称<b>C</b>omputer <b>A</b>nimation and
+                    <b>M</b>ultimedia <b>A</b>nalysis
+                    <b>LAB</b
+                    >，即计算机动画与多媒体分析实验室，隶属于杭州电子科技大学计算机学院。CAMALAB成立于2014年，具有一个年轻且颇有活力的科研团队，实验室负责人为俞俊教授，现拥有教师8名（教授3名、讲师5名）、硕士生14名、本科生3名。实验室的研究方向为<b>计算机视觉</b>与<b>机器学习</b>等人工智能相关前沿领域。具体而言，包含：图像检索、跨媒体表达、人脸检测与识别、图像分类/目标识别、图像质量评价、视频理解、深度学习、概率图模型等前沿课题。团队成员曾主持或参与国家自然科学基金、国家科技支撑计划、国家自然科学基金重大研究计划、青年973项目等多项科研项目，并发表包括IEEE
+                    Transactions on Neural Networks and Learning Systems
+                    (TNNLS), IEEE Transactions on Image Processing (TIP), IEEE
+                    Transactions on Multimedia (TMM), IEEE Transactions on
+                    Cybernetics (TC)等领域顶级期刊以及IEEE International
+                    Conference on Computer Vision
+                    (ICCV)等顶级国际会议在内的学术论文近100篇、授权和受理发明专利20余项。团队成员长期担任多个国际SCI期刊审稿专家、担任知名国际会议PC
+                    member，并与多名国内外知名学者、出色研究小组保持学术交流与合作。
+                    <br /><br />
+                    招生信息：<a
+                      href="resources/欢迎加入杭电CAMALAB.pdf"
+                      target="_blank"
+                      ><i class="fa fa-download"></i></a
+                    ><br />
+                    -
+                    欢迎国内外高校的优秀本科生/硕士生报考本实验室的硕士/博士研究生。<a
+                      href="joinus.html"
+                      target="_blank"
+                      >[详细信息]</a
+                    ><br />
+                    -
+                    实验室的毕业生就业于阿里巴巴、腾讯、网易、华为等著名IT公司。<br />
+                    -
+                    实验室与悉尼大学、悉尼科技大学、美国北卡大学、中科院、西安电子科技大学等国内外高校存在密切合作关系，会推荐优秀的本科生、研究生到这些高校的优秀研究团队进行交流学习或攻读博士学位。
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services">
+      <div class="orangeback">
+        <div class="container">
+          <div class="text-center homeport2"><h2>研究方向</h2></div>
+          <div class="row">
+            <div class="col-md-12 homeservices1">
+              <div class="col-md-3 portfolio-item">
+                <div class="text-center">
+                  <a href="javascript:void(0);">
+                    <span class="fa-stack fa-lg">
+                      <i class="fa fa-circle fa-stack-2x"></i>
+                      <i class="fa fa-search fa-stack-1x"></i>
+                    </span>
+                  </a>
+                  <h3>
+                    <a href="projects/retrieval.html" target="_blank"
+                      >图像检索</a
+                    >
+                  </h3>
+                  <p>
+                    针对“意图鸿沟”问题，结合图像深度视觉特征与用户点击特征，对图像大数据进行快速、精确检索。
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-3 portfolio-item">
+                <div class="text-center">
+                  <a href="javascript:void(0);">
+                    <span class="fa-stack fa-lg">
+                      <i class="fa fa-circle fa-stack-2x"></i>
+                      <i class="fa fa-users fa-stack-1x"></i>
+                    </span>
+                  </a>
+                  <h3>
+                    <a href="projects/face.html" target="_blank">身份认证</a>
+                  </h3>
+                  <p>
+                    面向公共安全领域，进行人脸检测、身份识别、异质人脸图像合成、超分辨重建、生物学质量评价等方面的研究。
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-3 portfolio-item">
+                <div class="text-center">
+                  <a href="javascript:void(0);">
+                    <span class="fa-stack fa-lg">
+                      <i class="fa fa-circle fa-stack-2x"></i>
+                      <i class="fa fa-binoculars fa-stack-1x"></i>
+                    </span>
+                  </a>
+                  <h3>
+                    <a href="projects/dl.html" target="_blank">深度学习</a>
+                  </h3>
+                  <p>
+                    研究深度学习理论及其在计算机视觉领域的应用，涉及强化学习、生成对抗网络、卷积神经网络、残差网络等模型。
+                  </p>
+                </div>
+              </div>
+
+              <div class="col-md-3 portfolio-item">
+                <div class="text-center">
+                  <a href="javascript:void(0);">
+                    <span class="fa-stack fa-lg">
+                      <i class="fa fa-circle fa-stack-2x"></i>
+                      <i class="fa fa-cogs fa-stack-1x"></i>
+                    </span>
+                  </a>
+                  <h3>
+                    <a href="projects/ml.html" target="_blank">机器学习</a>
+                  </h3>
+                  <p>
+                    研究通用机器学习算法及其在计算机视觉领域的应用，涉及概率图模型、超图学习、多核学习、排序学习等。
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-12 homeservices1">
+              <div class="col-md-3 portfolio-item">
+                <div class="text-center">
+                  <a href="javascript:void(0);">
+                    <span class="fa-stack fa-lg">
+                      <i class="fa fa-circle fa-stack-2x"></i>
+                      <i class="fa fa-cubes fa-stack-1x"></i>
+                    </span>
+                  </a>
+                  <h3>
+                    <a href="projects/object.html" target="_blank">目标识别</a>
+                  </h3>
+                  <p>
+                    主要研究细粒度的目标识别（图像分类）问题，基于深度视觉特征、点击特征及多任务学习模型等。
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-3 portfolio-item">
+                <div class="text-center">
+                  <a href="javascript:void(0);">
+                    <span class="fa-stack fa-lg">
+                      <i class="fa fa-circle fa-stack-2x"></i>
+                      <i class="fa fa-language fa-stack-1x"></i>
+                    </span>
+                  </a>
+                  <h3>
+                    <a href="projects/vqa.html" target="_blank">跨媒体表达</a>
+                  </h3>
+                  <p>
+                    多模态媒体数据（文本、图像等）之间的一致性表达，涉及哈希(Hashing)、检索、图像描述和视觉问答等。
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-3 portfolio-item">
+                <div class="text-center">
+                  <a href="javascript:void(0);">
+                    <span class="fa-stack fa-lg">
+                      <i class="fa fa-circle fa-stack-2x"></i>
+                      <i class="fa fa-photo fa-stack-1x"></i>
+                    </span>
+                  </a>
+                  <h3>
+                    <a href="projects/quality.html" target="_blank"
+                      >视觉质量评价</a
+                    >
+                  </h3>
+                  <p>
+                    基于人类视觉特性，设计数学模型使计算机能够自动评价图像的保真度、美观度等，并研究其在移动终端方面的应用。
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-3 portfolio-item">
+                <div class="text-center">
+                  <a href="javascript:void(0);">
+                    <span class="fa-stack fa-lg">
+                      <i class="fa fa-circle fa-stack-2x"></i>
+                      <i class="fa fa-video-camera fa-stack-1x"></i>
+                    </span>
+                  </a>
+                  <h3>
+                    <a href="projects/video.html" target="_blank"
+                      >视频分析与理解</a
+                    >
+                  </h3>
+                  <p>
+                    面向公共安全领域，研究视频中的目标检测、目标跟踪、行为识别、人体姿态估计等前沿课题。
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="container">
+      <aside class="col-md-12 sidebar-padding">
+        <!-- Recent News -->
+        <div class="blog-sidebar">
+          <h4 class="sidebar-title">
+            <i class="fa fa-align-left"></i> 最新信息
+          </h4>
+          <hr style="margin-bottom: 5px" />
+
+          <div class="media">
+            <div class="media-body">
+              <i class="fa fa-calendar-o"> July 2017</i>
+              <h4 class="media-heading">
+                <a href="#"
+                  ><font color="#E63F00"
+                    >热烈庆祝本团队在国际“视觉自动问答算法”竞赛 VQA Challenge
+                    2017 中取得第三名的佳绩！</font
+                  ></a
+                >
+              </h4>
+
+              团队参加国际计算机视觉领域方向“视觉自动问答算法”竞赛 VQA Challenge
+              2017，取得了全球第三名的成绩（第一名为新加坡国立大学，第二名为微软亚洲研究院）。团队核心成员除了俞俊教授外，包括我院讲师余宙、研究生项晨钞。
+              视觉自动问答算法是目前计算视觉视觉领域最前沿的研究方向之一，其任务在于给出给定一张图片和一个任意输入的自然语言描述的和图像内容相关的问题，让计算机在充分理解问题的前提下，对图像内容并进行深入分析并进行深层次推理，形成文字描述的答案。该问题是人类探索通用人工智能道路上的重要基础。
+            </div>
+          </div>
+
+          <div class="media">
+            <div class="media-body">
+              <i class="fa fa-calendar-o"> June 2017</i>
+              <h4 class="media-heading">
+                <a href="#"
+                  >邀请电子科技大学沈复民副教授作“哈希码学习及其在视觉检索识别中的应用”学术报告！</a
+                >
+              </h4>
+
+              沈复民本科毕业于山东大学数学与应用数学专业，博士毕业于南京理工大学国家重点学科模式识别于智能系统专业，澳大利亚阿德莱德大学联合培养博士，目前任职电子科技大学副教授。他的主要研究领域为大规模图像检索及分类等计算机视觉课题。近三年在相关领域共发表包括顶级会议及期刊CVPR、ICCV、TPAMI、TIP在内的论文八十余篇。他任职SCI期刊Elsevier
+              Neurocomputing、Pattern Recognition
+              Letters等期刊的客座编委，国际会议ACPR的专刊主席，MMM 2016、ICIMCS
+              2016的special session chair，ICCV、ACM Multimedia，ICMR, ICPR,
+              CCBR等国际会议的PC member，并为多个国际一流期刊包括IEEE TIP, TKDE,
+              TMM, TNNLS, TCSVT的审稿人。他获得ACM SIGIR'16 Best Paper Award
+              Honorable Mention, IEEE ICME'17最佳论文奖-铂金奖。
+            </div>
+          </div>
+
+          <div class="media">
+            <div class="media-body">
+              <i class="fa fa-calendar-o"> June 2017</i>
+              <h4 class="media-heading">
+                <a href="#"
+                  >恭喜南立浩同学在第41届ACM国际大学生程序设计竞赛全球总决赛获得全球排名并列第20的优异成绩！</a
+                >
+              </h4>
+
+              5月25日，第41届ACM
+              国际大学生程序设计竞赛全球总决赛在美国南达科达州拉皮德市落下帷幕。我校由计算机学院刘春英老师指导，卓越学院2013级南立浩、理学院2013级陈鹏和计算机学院2015级陈松扬组成的“HDU-SupportOrNot”队经过5个小时的顽强拼搏，最终成功解出6题，获得全球排名并列第20的优异成绩。在中国大陆高校中，成绩仅次于清华大学（第6）、北京大学（第7）、复旦大学（第8）、上海交通大学（并列第13）、电子科技大学（并列第13）。
+            </div>
+          </div>
+
+          <div class="media">
+            <div class="media-body">
+              <i class="fa fa-calendar-o"> May 2017</i>
+              <h4 class="media-heading">
+                <a href="#"
+                  >邀请美国德州州立大学卢亦娟副教授作“Large Scale Visual
+                  Search”学术报告！</a
+                >
+              </h4>
+              Dr. Yijuan Lu is an associate professor in the Department of
+              Computer Science at Texas State University. Her current research
+              focuses on multimedia information retrieval, computer vision, and
+              machine learning.
+            </div>
+          </div>
+
+          <div class="media">
+            <div class="media-body">
+              <i class="fa fa-calendar-o"> May 2017</i>
+              <h4 class="media-heading">
+                <a href="#"
+                  >恭喜乔卯英博士的论文被人工智能领域顶级会议IJCAI 2017录用！</a
+                >
+              </h4>
+              乔卯英博士的学术论文“Improving Stochastic Block Models by
+              Incorporating Power-Law Degree Characteristic”
+              被人工智能领域的顶级会议IJCAI 2017录用为长文。<br />
+              IJCAI(International Joint Conference on Artificial
+              Intelligence)始于1969年，每两年一次，涵盖了自然语言处理、机器学习、人工智能理论与架构、机器人科学等领域。会议具有很高的学术水平和影响力，受到学术界和产业界的高度关注，因此IJCAI和ICCV、CVPR、ICML、AAAI等会议被中国计算机学会(CCF)认定为A类会议。IJCAI
+              2017将于8月下旬在澳大利亚墨尔本召开，今年共收到2540篇投稿，录用660篇，录用率为25.9%。
+            </div>
+          </div>
+
+          <div class="media">
+            <div class="media-body">
+              <i class="fa fa-calendar-o"> Mar. 2017</i>
+              <h4 class="media-heading">
+                <a href="#"
+                  >恭喜俞俊教授获得IEEE信号处理学会（SPS）2012-2016年度最佳论文奖！</a
+                >
+              </h4>
+              俞俊教授与芮勇教授、陶大程教授合作的论文(IEEE TIP
+              2014)获得电子与电气工程师协会IEEE信号处理学会SPS
+              2012-2016年度最佳论文奖（Signal Processing Society Best Paper
+              Award）。颁奖仪式于2017年ICASSP国际会议上举行。
+            </div>
+          </div>
+
+          <div class="media">
+            <div class="media-body">
+              <i class="fa fa-calendar-o"> Feb. 2017</i>
+              <h4 class="media-heading">
+                <a href="#"
+                  >恭喜硕士生郑光剑、李攀鹏投稿至ICME2017的论文被录用！</a
+                >
+              </h4>
+              硕士生郑光剑、李攀鹏投稿至计算机领域CCF
+              B类国际会议ICME2017的两篇论文被录用。<br />实验室将资助两位同学于2017年7月10日-14日到香港参加会议，并做大会报告。
+            </div>
+          </div>
+
+          <div class="media">
+            <div class="media-body">
+              <i class="fa fa-calendar-o"> Dec. 2016</i>
+              <h4 class="media-heading">
+                <a href="#">欢迎乔卯英博士加入CAMALAB！</a>
+              </h4>
+              乔卯英博士于2016年毕业于悉尼科技大学，主要研究机器学习的基础理论及其应用，涉及图模型、隐语义分析、非负矩阵分解、低秩矩阵分解等。
+            </div>
+          </div>
+
+          <div class="media">
+            <div class="media-body">
+              <i class="fa fa-calendar-o"> Oct. 2016</i>
+              <h4 class="media-heading">
+                <a href="#">欢迎余宙博士加入CAMALAB！</a>
+              </h4>
+              余宙博士于2015年毕业于浙江大学，后任职于阿里巴巴，主要研究跨媒体信息的表达与理解，涉及深度学习、hashing，视觉问答等前沿课题。
+            </div>
+          </div>
+
+          <div class="media">
+            <div class="media-body">
+              <i class="fa fa-calendar-o"> Oct. 2016</i>
+              <h4 class="media-heading">
+                <a href="#">欢迎朱素果博士加入CAMALAB！</a>
+              </h4>
+              朱素果博士于2016年毕业于北京邮电大学，主要研究视频理解与分析，涉及人体跟踪、行为检测等公共安全相关领域的研究课题。
+            </div>
+          </div>
+
+          <div class="media">
+            <div class="media-body">
+              <i class="fa fa-calendar-o"> July. 2016</i>
+              <h4 class="media-heading">
+                <a href="#"
+                  >谭敏、高飞两位老师分别获得国家自然科学基金项目资助1项。</a
+                >
+              </h4>
+              谭敏：“面向移动终端的基于用户点击与深度神经网络的图像排序算法研究”（61602136）；高飞：“不可控条件下的人脸图像生物学质量评价方法研究”（61601158）。
+            </div>
+          </div>
+
+          <div class="media">
+            <div class="media-body">
+              <i class="fa fa-calendar-o"> July. 2016</i>
+              <h4 class="media-heading">
+                <a href="#">俞俊教授获得优秀青年科学基金项目资助。</a>
+              </h4>
+              俞俊教授获得优秀青年科学基金项目资助，该项目为我校首次获得。　
+            </div>
+          </div>
+
+          <div class="media">
+            <div class="media-body">
+              <i class="fa fa-calendar-o"> May 2015</i>
+              <h4 class="media-heading">
+                <a href="#"
+                  >俞俊教授的论文被选为IEEE Transactions on Multimedia 2015
+                  最佳论文！</a
+                >
+              </h4>
+              热烈祝贺俞俊教授的论文《Exploiting Click Constraints and
+              Multi-view Features for Image Re-ranking》被选为IEEE Transactions
+              on Multimedia (IEEE TMM)
+              最佳论文。这是国内学者首次以第一作者获得该项最佳论文奖。本次最佳论文的产生经过了两轮的严格讨论。目前俞教授将前往ICME
+              2015领取该最佳论文奖。
+            </div>
+          </div>
+        </div>
+      </aside>
+    </div>
+
+    <div id="location">
+      <div class="row prodmap">
+        <div
+          id="map-canvas-holder"
+          class="map_holder"
+          style="height: 50px"
+        ></div>
+      </div>
+    </div>
+
+    <footer id="footer">
+      <div class="fotter">
+        <div class="container">
+          <div class="col-sm-5 left text-left">
+            <p>
+              <i class="fa fa-1x fa-map-marker"></i> 实验室地址：<br />
+              浙江省杭州市经济技术开发区2号大街1158号，邮编310018<br />
+              杭州电子科技大学下沙高教园校区 一教北楼512/514室<br /><br />
+              <i class="fa fa-1x fa-home"></i> 实验室网址：<br />
+              <a href="http://camalab.hdu.edu.cn">http://camalab.hdu.edu.cn</a
+              ><br />
+            </p>
+          </div>
+          <div class="col-sm-4 middle text-left">
+            <p>
+              <i class="fa fa-1x fa-user"></i> 负责人：<br />
+              俞俊（教授）：yujunAThdu.edu.cn <br /><br />
+              <i class="fa fa-1x fa-university"></i> 友情链接：<br />
+              <a href="http://www.hdu.edu.cn/index.php" target="_blank">
+                Hangzhou Dianzi University </a
+              ><br />
+              <a href="http://computer.hdu.edu.cn/" target="_blank">
+                School of Computer Science and Technology
+              </a>
+            </p>
+          </div>
+          <div class="col-sm-3 left right text-center">
+            <p>
+              <img
+                src="images/camalab_wechat.jpg"
+                alt="img/image-coming-soon.jpg"
+                width="120px"
+                height="120px"
+              />
+              <br />
+              <i class="fa fa-1x fa-weixin"></i> 微信公众号
+            </p>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row myfooter">
+          <div class="text-center">
+            Copyright &copy; 2016. All rights reserved. Designed by
+            <a target="_blank" href="http://camalab.hdu.edu.cn">CAMALAB</a>.
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Portfolio -->
+    <script src="js/jquery.quicksand.js"></script>
+
+    <!--Jquery Smooth Scrolling-->
+    <script>
+      $(document).ready(function () {
+        $('.custom-menu a[href^="#"], .intro-scroller .inner-link').on(
+          "click",
+          function (e) {
+            e.preventDefault();
+
+            var target = this.hash;
+            var $target = $(target);
+
+            $("html, body")
+              .stop()
+              .animate(
+                {
+                  scrollTop: $target.offset().top,
+                },
+                900,
+                "swing",
+                function () {
+                  window.location.hash = target;
+                }
+              );
+          }
+        );
+
+        $("a.page-scroll").bind("click", function (event) {
+          var $anchor = $(this);
+          $("html, body")
+            .stop()
+            .animate(
+              {
+                scrollTop: $($anchor.attr("href")).offset().top,
+              },
+              1500,
+              "easeInOutExpo"
+            );
+          event.preventDefault();
+        });
+
+        $(".nav a").on("click", function () {
+          $(".nav").find(".active").removeClass("active");
+          $(this).parent().addClass("active");
+        });
+
+        $("body").append(
+          '<div id="toTop" class="btn btn-primary color1"><span class="glyphicon glyphicon-chevron-up"></span></div>'
+        );
+        $(window).scroll(function () {
+          if ($(this).scrollTop() != 0) {
+            $("#toTop").fadeIn();
+          } else {
+            $("#toTop").fadeOut();
+          }
+        });
+        $("#toTop").click(function () {
+          $("html, body").animate({ scrollTop: 0 }, 700);
+          return false;
+        });
+      });
+    </script>
+  </body>
+</html>
